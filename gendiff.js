@@ -52,3 +52,4 @@ const generateDiff = (obj1, obj2) => {
 
 const diff = generateDiff(obj1, obj2);
 console.log(`{\n${diff.join('\n')}\n}`);
+export default generateDiff;
